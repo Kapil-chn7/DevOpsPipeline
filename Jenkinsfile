@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Placeholder build step
-                echo 'Its oops Building...okay its building'
+                echo 'Its oops Building...okay its building this is the finallll'
                 git branch: 'main', credentialsId: 'GithubToken', url: 'https://github.com/Kapil-chn7/DevOpsPipeline.git'
             }
         }
